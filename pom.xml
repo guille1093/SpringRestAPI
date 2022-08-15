@@ -8,8 +8,8 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>easy-notes</name>
-	<description>Rest API for a Simple Note Taking Application</description>
+	<name>FuerzaAPI</name>
+	<description>Rest API JPA</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
