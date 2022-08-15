@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * Created by rajeevkumarsingh on 27/06/17.
- */
 @RestController
 @RequestMapping("/api")
 public class NoteController {
@@ -45,9 +42,7 @@ public class NoteController {
 
         note.setTitle(noteDetails.getTitle());
         note.setContent(noteDetails.getContent());
-
-        Note updatedNote = noteRepository.save(note);
-        return updatedNote;
+        return noteRepository.save(note);
     }
 
     @DeleteMapping("/notes/{id}")
